@@ -57,6 +57,7 @@ $test = $test -replace 'codePostalEtablissement=', 'Code Postal='
 $test = $test -replace 'libelleCommuneEtablissement=', 'Ville='
 # Gestion des Artefacts
 $test = $test -replace "u0026", "&"
+$test = $test -replace "u0027", " "
 $test = $test -replace "adresseEtablissement", "`n"
 Remove-Item ./out.txt -ErrorAction SilentlyContinue
 Remove-Item Result.txt -ErrorAction SilentlyContinue
