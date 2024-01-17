@@ -1,4 +1,4 @@
-﻿# Menu principale
+﻿# Menu principal
 param(
     [string]$denomination="*",
     [string]$Le_Code_APE="*",
